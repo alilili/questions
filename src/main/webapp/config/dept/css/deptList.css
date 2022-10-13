@@ -1,0 +1,11 @@
+body{
+    height: 100%;
+}
+
+.layui-table th,.layui-table td{
+    text-align: center;
+}
+
+.blue{
+    color : #0d58ff;
+}

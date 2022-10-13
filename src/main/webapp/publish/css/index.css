@@ -1,0 +1,48 @@
+/*设置默认字体等*/
+body{
+    /*background-color: #f2f2f2;*/
+    background-color: #f6f6f6;
+    font-size: 16px;
+}
+
+.layui-field-title{
+    text-align: center;
+}
+
+.layui-field-title legend{
+    margin:0;
+    line-height: 40px;
+    font-weight: 600;
+    color: #0d58ff;
+}
+
+#question_form{
+    max-width: 800px;
+    margin: 0 auto !important;
+    padding: 30px;
+    /*background-color: #FFFFFF;*/
+}
+
+/*问题标题居左，上下居中*/
+.questions .layui-input-block{
+    margin: 0;
+    line-height: 36px;
+}
+
+.questions .score{
+    margin-left: 26px;
+}
+/*单选一行显示*/
+.questions .layui-form-radio{
+    /*display: block;*/
+}
+
+.req{
+    color: #ff4040 !important;
+    margin: 3px 3px 0 2px;
+}
+
+/*主题蓝色*/
+.layui-form-radio>i:hover, .layui-form-radioed>i {
+    color: #0095ff;
+}

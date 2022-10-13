@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  application:
+    name: 问卷调查
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/questions?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: root
+    password: dreamsoft
+    driver-class-name: com.mysql.jdbc.Driver
+  web:
+    resources:
+      static-locations: /resources
